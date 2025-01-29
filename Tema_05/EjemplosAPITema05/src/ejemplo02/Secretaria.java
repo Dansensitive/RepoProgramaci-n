@@ -29,6 +29,10 @@ public class Secretaria {
 		listAlumnos.add(a);
 	}
 	
+	public boolean agregar2(Alumno a) {
+		return listAlumnos.add(a);
+	}
+	
 	public int findByDni(String dniBuscado) {
 		int buscado=-1;
 		boolean encontrado=false;
